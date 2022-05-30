@@ -43,6 +43,9 @@
                     <p class="article-content">
                         <?= $article['content'] ?>
                     </p>
+                <div class="action">
+                    <a class="btn btn-primary" href="/form-article.php?id=<?= $article['id'] ?>">Editer l'article</a>
+                </div>
             </div>
             
             
